@@ -1,0 +1,29 @@
+.container.d-flex.justify-content-center.event-box {
+
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    height: 968px;
+   display: flow !important;
+
+}
+
+.event1{
+
+    width: 900px;
+    height: 200px;
+    border: 1px solid #ddd;
+}
+.event1 h5{
+color: grey;
+padding-right: 720px;
+font-weight: bold;
+}
+.event1 h4{
+
+    padding-right: 320px;
+    font-weight: bold;
+}

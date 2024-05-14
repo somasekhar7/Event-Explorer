@@ -1,0 +1,127 @@
+.navbar{
+    --nav-size: 120px;
+    height: var(--nav-size);
+    --text-color: #dadce1;
+    --background-color: black;
+    padding: 0 1rem;
+    border-bottom: #242526;
+    --speed: 500ms;
+
+}
+
+.navbar-brand{
+    text-align: center !important;
+    --color: white !important;
+    font-size: 2.5rem !important;
+    font-family: 'Arial', sans-serif; /* Use a specific font family */
+    padding-right: 20rem;
+
+}
+
+.nav-items{
+    color: white;
+    font-size: 1.0rem;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.form-control{
+    width: 50% !important;
+}
+.horizontal-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-decoration: none;
+
+}
+
+.horizontal-list li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 10px; /* Add spacing between items */
+}
+
+
+.horizontal-list  a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set default text color */
+    display: inline-block; /* Display links as blocks */
+    padding: 5px 10px; /* Add padding to links */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.1s; /* Smooth transition for background color */
+}
+
+.horizontal-list  a:hover {
+    background-color: grey; /* Change background color on hover */
+}
+
+.user{
+    color: grey;
+}
+.form-control.email{
+
+    width: 100% !important;
+}
+.form-control.password{
+
+    width: 100% !important;
+}
+
+.form-control.dateOfBirth{
+
+    width: 100% !important;
+}
+
+.container.d-flex.justify-content-center.login-box {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+
+.nav.nav-pills.nav-fill.gap-2.p-1.small.bg-primary.rounded-5.shadow-sm{
+--bs-nav-link-color: var(--bs-white);
+    --bs-nav-pills-link-active-color: var(--bs-primary);
+    --bs-nav-pills-link-active-bg: var(--bs-white);
+
+}
+
+a.forget-password {
+    margin-left: 2.9rem;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.form-control.first-name{
+
+    width: 100% !important;
+}
+.form-control.last-name{
+
+    width: 100% !important;
+}
+.form-control.dateOfBirth{
+    width: 100% !important;
+}
+nav {
+    position: fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+:root {
+    --nav-size: 120px;
+    --text-color: #dadce1;
+    --speed: 500ms;
+}
+
+/* Rest of your CSS */
+
+
+

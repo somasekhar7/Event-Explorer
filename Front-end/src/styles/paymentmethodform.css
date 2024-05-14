@@ -1,0 +1,139 @@
+.billing_info {
+    background-color: #fff;
+    width: 50%;
+    border: 2px solid #eee;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 0 auto;
+    /*height: 1168px;*/
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.payment_method {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+
+.payment_option {
+    flex: 0 0 30%; /* Adjust the width of each payment option */
+    margin-bottom: 20px;
+}
+
+.payment_tile {
+    border: 2px solid #eee;
+    border-radius: 14px;
+
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+.payment_tile_apple {
+    border: 2px solid #eee;
+    border-radius: 14px;
+
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.payment_tile_paypal {
+    border: 2px solid #eee;
+    border-radius: 14px;
+
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.payment_option_name {
+    font-size: 16px;
+    padding-top: 80px;
+}
+
+/* Style for selected payment option */
+.payment_option input[type="radio"]:checked + .payment_tile {
+    border-color: #222230;
+    outline-color: #222230;
+}
+
+.payment_tile{
+    background-image: url("../assests/credit_card.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+
+
+}
+.payment_tile_apple{
+    background-image: url("../assests/apple_pay.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+
+
+}
+.payment_tile_paypal{
+    background-image: url("../assests/paypal.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+
+
+}
+
+.card_payment{
+    background-position: right top;
+    background-repeat: no-repeat;
+    text-indent: -3000px;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    --bs-card-border-width: none!important;
+}
+.card_payment.visa{
+    background-repeat: no-repeat;
+    background-image: url("../assests/visa.png");
+}
+.card_payment.mastercard{
+    background-repeat: no-repeat;
+    background-image: url("../assests/mastercard.png");
+}
+.card_payment.discover{
+    background-repeat: no-repeat;
+    background-image: url("../assests/discover.png");
+}
+.card_payment.american_express{
+    background-repeat: no-repeat;
+    background-image: url("../assests/american_express.png");
+}
+
+.accepted_cards{
+
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.same-as-bill-to-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-top: 10px
+}
+
+.credit-card-form{
+    margin-left: 120px;
+}
+.apple-image-pay{
+    cursor: pointer;
+    width: 30%;
+}
+
+
+

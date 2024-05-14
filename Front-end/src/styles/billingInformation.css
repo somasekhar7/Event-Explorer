@@ -1,0 +1,79 @@
+.container-billing {
+
+
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 14px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 26px;
+    outline-offset: 2px;
+    padding-top: 5px;
+    margin-left: 400px;
+
+
+    justify-content: space-between;
+
+}
+.credit-card-apple{
+    border: 2px solid #eee;
+    border-radius: 14px;
+    cursor: pointer;
+    background-image: url("../assests/apple_pay.png");
+    background-repeat: no-repeat;
+
+    background-color: #fff;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: 36px;
+    outline-offset: 2px;
+    margin-left: 50px;
+    margin-top:10px
+}
+.credit-card-apple:hover{
+
+    border-color: #222230;
+    outline-color: #222230
+}
+
+.credit-card-cc{
+    border: 2px solid #eee;
+    border-radius: 14px;
+    cursor: pointer;
+    background-image: url("../assests/credit_card.png");
+    background-repeat: no-repeat;
+
+    background-color: #fff;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: 36px;
+    outline-offset: 2px;
+    margin-left: 50px;
+}
+.credit-card-cc:hover{
+
+    border-color: #222230;
+    outline-color: #222230
+}
+
+.credit-card-form {
+    border: 2px solid #eee;
+    border-radius: 14px;
+    background-color: #fff;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+

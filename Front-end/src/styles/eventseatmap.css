@@ -1,0 +1,62 @@
+.theater-seat {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.theater-seat svg {
+    width: 20px;
+    height: 20px;
+}
+.stage-label {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 320px;
+}
+
+.theater-seat:hover .price {
+    display: block;
+}
+
+.price {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.order-summary-box {
+    background-color: #fff;
+width:50%;
+    border: 2px solid #eee;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.event-details-box {
+    float: right; /* Float the box to the right side */
+    width: 300px; /* Set the width of the box */
+    margin-left: 20px; /* Add some margin to the left */
+    border: 1px solid #ccc; /* Add a border */
+    padding: 10px; /* Add padding inside the box */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}.custom-card {
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+

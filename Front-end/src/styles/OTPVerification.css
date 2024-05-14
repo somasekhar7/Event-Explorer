@@ -1,0 +1,18 @@
+.container .d-flex .justify-content-center .login-box {
+    max-width: 400px;
+    margin-top:auto;
+    padding-top:200px !important;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+
+}
+
+#verify-button {
+    margin-top:20px;
+    padding:5px 30px;
+}
+#verify-button:hover {
+    background-color: green;
+}

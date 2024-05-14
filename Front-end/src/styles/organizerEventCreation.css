@@ -1,0 +1,21 @@
+.event-form{
+
+    flex: 1;
+    overflow-y: auto; /* Enable scrolling for the form */
+    padding: 20px;
+    /*height: 968px;*/
+    /*margin-left: 220px !important;*/
+
+    margin-left: 300px;
+    margin-right: auto;
+}
+.btn.btn-primary.center{
+
+    /*margin-right: 400px;*/
+
+}
+textarea{
+
+    height: 200px !important;
+    width: 100% !important;
+}

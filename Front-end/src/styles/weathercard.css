@@ -1,0 +1,24 @@
+.rain-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999; /* Ensure raindrops are on top of other content */
+}
+
+.drop {
+    position: absolute;
+    top: -10px; /* Start above the viewport */
+    width: 2px; /* Make the drops thicker */
+    height: 20px; /* Make the drops longer */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh); /* Move the drop to the bottom of the viewport */
+    }
+}
